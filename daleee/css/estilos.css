@@ -1,0 +1,227 @@
+.container {
+    max-width: 1100px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  nav{
+    background-image: url(/img/1.jpg);
+    
+  }
+  header {
+    background-image: url(/img/16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    position: relative;
+  }
+  
+  .titu{
+    font-size: 45px;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+  .titi{
+    background-color: #b516dd;
+    border-radius: 30px;
+  }
+  
+  
+  .call{
+    background-image: url(/img/8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  .btn {
+    background-color: #b516dd;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  img{
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .gallery{
+    background-color: #cc12c370;
+    padding: 25px 0;
+  }
+  .gallery img{
+    background-color: #bf3be08c;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(3, 3, 3);
+    
+  }
+  #row-cursos {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  #row-cursos img {
+   width: 200px;
+   height: 200px;
+   border-radius: 20%;
+  }
+  
+  #row-nosotros {
+ background-image: url(/img/7.jpg);
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  
+  #row-nosotros {
+    background-image: url("/img/6.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  
+  #row-servicios {
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  
+  .img1{
+    background-color: #ddd0e059;
+    
+    
+  }
+  .img2{
+    background-color: #b516dd59;
+    
+  }
+  .img3{
+    background-color: #b516dd59;
+    
+  }
+  .img4{
+    background-color: #ddd0e059;
+    ;
+  }
+  .img5{
+    background-color: #ddd0e059; 
+    
+    
+  }
+  .img6{
+    background-color: #b516dd59;
+    
+    
+  }
+  #row-frace {
+    background-image: url("/img/3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+  }
+  
+  #row-contacto {
+    background-image: url("/img/18.jpg");
+    background-size: cover;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+  }
+  
+  #row-nosotros img {
+    border-radius: 50%;
+    width: 300px;
+  }
+  
+  #row-servicios img {
+    border-radius: 50%;
+    width: 300px;
+  }
+  
+  #row-nosotros p {
+    font-size: 14px;
+  }
+  
+  #row-servicios p {
+    font-size: 14px;
+  }
+ 
+  #row-datos {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  
+  .circulo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    
+  }
+  
+  .form-control {
+    border-radius: 50px;
+  }
+  
+  footer {
+   background-image: url(/img/1.jpg);
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .subir {
+    height: 45px;
+    width: 45px;
+    background-color: rgba(158, 40, 158, 0.459);
+    border: 4px solid rgb(74, 27, 78);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: rgb(40, 21, 61);
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(141, 25, 135);
+  }
+ 
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      background-color: #e5e6e9;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      padding-left: 20px;
+    }
+  }
+  nav {
+    z-index: 100;
+
+  }
+  
+  
+  
+  /*# sourceMappingURL=estilos.css.map */
